@@ -15,7 +15,6 @@ color: #3366FF;
 
 </style>
 <head>
-
 <title></title>
 <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
 <script type="text/javascript"></script>
@@ -47,7 +46,6 @@ color: #3366FF;
       <li><a href="#">Automatismo</a></li>
       <li><a href="#">Contacto</a></li>
 </ul></nav>
-
 </div>
 
 
@@ -79,11 +77,9 @@ $random = rand(1,$numbanners);
 <div class="frame_menu_vertical_a"><a href="automatismo/automatismo.php"><img src="img/menu_vertical_a.png" border="0"/></a></div>
 <div class="frame_menu_vertical_ss"><a href="sistemas_seguridad/sistemas_seguridad.php"><img src="img/menu_vertical_ss.png" border="0"/></a></div>
 </div>
-
-
+<div class="frame_pie_pagina"></div>
 
 </div>
-
 <script type="text/javascript">
 </script>
 </body>

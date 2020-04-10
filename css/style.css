@@ -127,6 +127,13 @@ Div.frame_menu_vertical{
 	position:relative;
 }
 
+Div.frame_pie_pagina{
+	height:200px;
+	width:1024px;
+	position:relative;
+	background-color:#CCCCCC;
+}
+
 Div.frame_menu_vertical_pa{
 	height:167px;
 	width:260px;
