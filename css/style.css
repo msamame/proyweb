@@ -1,0 +1,166 @@
+﻿*{margin:0;padding:0;box-sizing:border-box;font-size:0;}  
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:14px;
+      }
+            
+nav li{
+      display:inline-block;
+      width:150px;
+      height:30px;
+      padding:5px 10px;
+      /*background-color:#3366FF;
+      border:1px solid :#3366FF;*/
+      background-color:#FFFFFF;
+      border:1px solid :#FFFFFF;
+      text-align:center;
+      /*color:#FFFFFF;*/
+	  color:#666666;
+      position:relative;
+	  font:Arial;
+	  font-weight:bold;
+}
+           
+nav li:hover{
+      /*background-color:#FFFFFF;
+      color:#3366FF;*/
+      background-color:#FFFFFF;
+      color:#FF0000;
+	  position:relative;
+      }
+            
+nav li>ul{
+      display:none;
+      }
+
+nav li:hover>ul{
+      position:absolute;
+      Z-INDEX: 1;
+      display:block;
+      top:30px;
+      left:0px;
+}
+
+DIV.c  {   /*seccion donde se proyectan los banners*/
+    POSITION: relative;
+    MARGIN: auto;
+    WIDTH: 1024px;
+    HEIGHT: 379px;
+    BACKGROUND: white;
+}
+
+DIV.c1 {   /*esta seccion le da tamaño de proporcion al contenedor png*/
+    POSITION: relative;
+    MARGIN: auto;
+    WIDTH: 1024px;
+	HEIGHT: 379px;
+    BACKGROUND: white;
+}
+
+DIV.c1 IMG  {   /*esta seccion le da tamaño de proporcion al archivo png*/
+    BORDER-BOTTOM: 0px;
+    BORDER-LEFT: 0px;
+    WIDTH: 1024px;
+    HEIGHT: 379px;
+    BORDER-TOP: 0px;
+    BORDER-RIGHT: 0px;
+	POSITION: absolute;
+}
+
+.hidden  {
+    DISPLAY: none
+}
+
+DIV.marco_menu {   /*crea un marco para el menú horizontal*/
+    POSITION: relative;
+    MARGIN: auto;
+    WIDTH: 1024px;
+	/*background-color:#3366FF;*/
+	background-color:#FFFFFF;
+}
+
+DIV.marco_logo {   /*crea un marco para el menú horizontal*/
+    POSITION: relative;
+    MARGIN: auto;
+    WIDTH: 1024px;
+	height:64px;
+	background-color:#FFFFFF;
+}
+
+Div.logo{
+    POSITION: absolute;
+	background :url(../img/logo.png) no-repeat;
+	background-size: cover;
+    WIDTH: 265px;
+	height: 44px;
+	margin-top:10px;
+}
+
+Div.redes_sociales {
+    WIDTH: 480px;
+	height: 20px;
+	margin-left:574px;
+	margin-top:10px;
+    POSITION: relative;
+	font-size: 14px;
+	font:Arial;
+	text-decoration:none;
+	color:#3366FF;
+}
+
+Div.direccion {
+    WIDTH: 480px;
+	height: 14px;
+	margin-left:574px;
+	margin-top:10px;
+    POSITION: relative;
+	font-size: 14px;
+	font:Arial;
+	text-decoration:none;
+	color:#3366FF;
+}
+
+Div.frame_menu_vertical{
+	height:167px;
+	width:1024px;
+	position:relative;
+}
+
+Div.frame_menu_vertical_pa{
+	height:167px;
+	width:260px;
+	margin-left:201px;
+	margin-top:0;
+	position:absolute;
+	left: 2px;
+	top: 0px;
+}
+
+Div.frame_menu_vertical_a{
+	height:167px;
+	width:260px;
+	margin-left:482px;
+	margin-top:0px;
+	position:absolute;
+	left: 2px;
+	top: 0px;
+}
+
+Div.frame_menu_vertical_ss{
+	height:167px;
+	width:260px;
+	margin-left:764px;
+	margin-top:0px;
+	position:absolute;
+	left: 2px;
+	top: 0px;
+}
+
+Div.frame{ /*Frame principal, le da el tamaño total a la página web*/
+    width:1024px;
+    height:2000px;
+	POSITION: relative;
+	MARGIN: auto;
+	BACKGROUND: white;
+}
