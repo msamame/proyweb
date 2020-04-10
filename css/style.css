@@ -100,25 +100,40 @@ Div.logo{
 Div.redes_sociales {
     WIDTH: 480px;
 	height: 20px;
-	margin-left:574px;
+	margin-left:540px;
 	margin-top:10px;
     POSITION: relative;
 	font-size: 14px;
 	font:Arial;
 	text-decoration:none;
 	color:#3366FF;
+	text-align:right;
+}
+
+Div.redes_sociales_pie_pagina {
+    WIDTH: 480px;
+	height: 30px;
+	margin-left:540px;
+	margin-top:2px;
+    POSITION: relative;
+	font-size: 14px;
+	font:Arial;
+	text-decoration:none;
+	color:#3366FF;
+	text-align:right;
 }
 
 Div.direccion {
     WIDTH: 480px;
 	height: 14px;
-	margin-left:574px;
+	margin-left:540px;
 	margin-top:10px;
     POSITION: relative;
 	font-size: 14px;
 	font:Arial;
 	text-decoration:none;
 	color:#3366FF;
+	text-align:right;
 }
 
 Div.frame_menu_vertical{
@@ -127,11 +142,18 @@ Div.frame_menu_vertical{
 	position:relative;
 }
 
-Div.frame_pie_pagina{
+Div.frame_pos_vertical{
 	height:200px;
 	width:1024px;
 	position:relative;
 	background-color:#CCCCCC;
+}
+
+Div.frame_pie_pagina{
+	height:40px;
+	width:1024px;
+	position:relative;
+	background-color:#E4E4E4;
 }
 
 Div.frame_menu_vertical_pa{

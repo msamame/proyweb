@@ -24,7 +24,7 @@ color: #3366FF;
 
 <div class="marco_logo">
 <div class="logo"></div>
-<div class="redes_sociales"><a href="mailto:ventas@todopuertasautomaticas.com" target="_blank" class="Estilo3">ventas@todopuertasautomaticas.com</a>&nbsp;&nbsp;<img src="img/whatsapp.png" width="20px" height="20px" alt="" />&nbsp;&nbsp;(+511) 929273557 - 929273557&nbsp;&nbsp;<img src="img/facebook.png" width="20px" height="20px"/></div>
+<div class="redes_sociales"><a href="mailto:ventas@todopuertasautomaticas.com" target="_blank" class="Estilo3">ventas@todopuertasautomaticas.com</a>&nbsp;&nbsp;<img src="img/whatsapp.png" width="20px" height="20px" alt="" />&nbsp;&nbsp;(+511) 929273557 - 929273557</div>
 <div class="direccion">Jr los economistas #4012 Urb. Ram&oacute;n Castilla SJL - Lima Per&uacute; </div>
 </div>
 
@@ -77,8 +77,10 @@ $random = rand(1,$numbanners);
 <div class="frame_menu_vertical_a"><a href="automatismo/automatismo.php"><img src="img/menu_vertical_a.png" border="0"/></a></div>
 <div class="frame_menu_vertical_ss"><a href="sistemas_seguridad/sistemas_seguridad.php"><img src="img/menu_vertical_ss.png" border="0"/></a></div>
 </div>
-<div class="frame_pie_pagina"></div>
-
+<div class="frame_pos_vertical"></div>
+<div class="frame_pie_pagina">
+<div class="redes_sociales_pie_pagina"><img src="img/facebook.png" width="30px" height="30px" align="right" style="margin-top:5px"/><img src="img/map.png" width="30px" height="30px" style="margin-top:5px"></div>
+</div>
 </div>
 <script type="text/javascript">
 </script>
