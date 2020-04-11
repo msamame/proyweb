@@ -4,10 +4,8 @@
 <div class="frame">
 <?php require_once('../libs/menu_horizontal.php'); ?>
 <!-- Cuerpo de link -->
-<div class="encabezado_link">Puertas automáticas
-<?php require_once('../libs/rs_encabezado_link.php');?>
-</div>
-<div class="body_link">habla</div>
+<div class="encabezado_link">Puertas automáticas<?php require_once('../libs/rs_encabezado_link.php');?></div>
+<div class="body_link">cuerpo de pagina</div>
 
 
 

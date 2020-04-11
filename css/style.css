@@ -113,14 +113,13 @@ Div.telefono_ventas {
 }
 
 Div.redes_sociales_encabezado_link {
-    WIDTH: 200px;
-	height: 25px;
-	margin-left:767px;
-	margin-top:0;
-    POSITION: absolute;
-	left: 2px;
+    WIDTH: 180px;
+	height: 50px;
+	margin-left: 844px;
+    POSITION:absolute;
+	background-color:#97BD8A;
+	left: 0px;
 	top: 0px;
-	line-height:25px;
 }
 
 Div.redes_sociales_pie_pagina {
@@ -217,9 +216,8 @@ Div.body_link{
 
 div.encabezado_link{
 	height:50px;
-	width:967px;        /*longitud total - espacios a la izquierda del texto  1024-57*/
+	width:844px;        /*longitud total - espacios a la izquierda del texto  1024-57*/
 	position:relative;
-	color:#000000;
 	font-size:24px;
 	font:Arial;
 	color:#005300;
