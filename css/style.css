@@ -28,6 +28,8 @@ nav li:hover{
       background-color:#FFFFFF;
       color:#FF0000;
 	  position:relative;
+	  border-bottom-style:solid;
+	  border-bottom-width:thin;
       }
             
 nav li>ul{
@@ -137,7 +139,7 @@ Div.direccion {
 }
 
 Div.frame_menu_vertical{
-	height:167px;
+	height:200px;
 	width:1024px;
 	position:relative;
 }
@@ -160,6 +162,16 @@ Div.frame_menu_vertical_pa{
 	height:167px;
 	width:260px;
 	margin-left:201px;
+	margin-top:33;
+	position:absolute;
+	left: 2px;
+	top: 0px;
+}
+
+Div.titulo_frame_menu_vertical_pa{
+    height:33px;
+	width:260px;
+	margin-left:201px;
 	margin-top:0;
 	position:absolute;
 	left: 2px;
@@ -170,17 +182,43 @@ Div.frame_menu_vertical_a{
 	height:167px;
 	width:260px;
 	margin-left:482px;
-	margin-top:0px;
+	margin-top:33px;
 	position:absolute;
 	left: 2px;
 	top: 0px;
+}
+
+Div.titulo_frame_menu_vertical_a{
+    height:33px;
+	width:260px;
+	margin-left:482px;
+	margin-top:0;
+	position:absolute;
+	left: 2px;
+	top: 0px;
+}
+
+Div.body_automatismo{
+	height:1300px;
+	width:1024px;
+	position:relative;
 }
 
 Div.frame_menu_vertical_ss{
 	height:167px;
 	width:260px;
 	margin-left:764px;
-	margin-top:0px;
+	margin-top:33px;
+	position:absolute;
+	left: 2px;
+	top: 0px;
+}
+
+Div.titulo_frame_menu_vertical_ss{
+    height:33px;
+	width:260px;
+	margin-left:762px;
+	margin-top:0;
 	position:absolute;
 	left: 2px;
 	top: 0px;

@@ -24,7 +24,7 @@ color: #3366FF;
 
 <div class="marco_logo">
 <div class="logo"></div>
-<div class="redes_sociales"><a href="mailto:ventas@todopuertasautomaticas.com" target="_blank" class="Estilo3">ventas@todopuertasautomaticas.com</a>&nbsp;&nbsp;<a href="https://api.whatsapp.com/send?phone=+51 929 273 557&text=Hola, quisiera que me brinden una cotización..." target="_blank" img><img src="img/whatsapp.png" width="20px" height="20px" alt="" style="vertical-align:bottom"/></a>&nbsp;&nbsp;(+511) 929 273 557 - 929 273 557</div>
+<div class="redes_sociales"><a href="mailto:ventas@todopuertasautomaticas.com" target="_blank" class="Estilo3">ventas@todopuertasautomaticas.com</a>&nbsp;&nbsp;<a href="https://api.whatsapp.com/send?phone=+51 929 273 557&text=Hola, quisiera que me brinden una cotización..." target="_blank" img><img src="img/whatsapp.png" width="20px" height="20px" alt="" style="vertical-align:bottom" border="0"/></a>&nbsp;&nbsp;(+511) 929 273 557 - 929 273 557</div>
 <div class="direccion">Jr. los economistas #4012 Urb. Ram&oacute;n Castilla SJL - Lima Per&uacute; </div>
 </div>
 
@@ -69,15 +69,18 @@ $random = rand(1,$numbanners);
 </div>
 
 <div class="frame_menu_vertical">
-<?php require_once('libs/menu_vertical.php');?>
+  <?php require_once('libs/menu_vertical.php');?>
+  <div class="titulo_frame_menu_vertical_pa"><img src="img/titulo_pa.png" border="0"/></div>
 <div class="frame_menu_vertical_pa"><a href="puertas_automaticas/puertas_automaticas.php"><img src="img/menu_vertical_pa.png" border="0"/></a></div>
+<div class="titulo_frame_menu_vertical_a"><img src="img/titulo_a.png" border="0"/></div>
 <div class="frame_menu_vertical_a"><a href="automatismo/automatismo.php"><img src="img/menu_vertical_a.png" border="0"/></a></div>
+<div class="titulo_frame_menu_vertical_ss"><img src="img/titulo_ss.png" border="0"/></div>
 <div class="frame_menu_vertical_ss"><a href="sistemas_seguridad/sistemas_seguridad.php"><img src="img/menu_vertical_ss.png" border="0"/></a></div>
 </div>
 
 <div class="frame_pos_vertical"></div>
 <div class="frame_pie_pagina">
-  <div class="redes_sociales_pie_pagina"><img src="img/map.png" width="30px" height="30px" style="margin-top:5px" /><img src="img/facebook.png" width="30px" height="30px" style="margin-top:5px"/><a href="https://api.whatsapp.com/send?phone=+51 929 273 557&text=Hola, quisiera que me brinden una cotización..." target="_blank" img><img src="img/whatsapp.png" width="30px" height="30px" style="margin-top:5px"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php"><img src="img/home.png" width="30px" height="30px" style="margin-top:5px"/></a></div>
+  <div class="redes_sociales_pie_pagina"><img src="img/map.png" width="30px" height="30px" style="margin-top:5px" /><img src="img/facebook.png" width="30px" height="30px" style="margin-top:5px"/><a href="https://api.whatsapp.com/send?phone=+51 929 273 557&text=Hola, quisiera que me brinden una cotización..." target="_blank" img><img src="img/whatsapp.png" width="30px" height="30px" style="margin-top:5px" border="0"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php"><img src="img/home.png" width="30px" height="30px" style="margin-top:5px" border="0"/></a></div>
 </div>
 
 </div>
