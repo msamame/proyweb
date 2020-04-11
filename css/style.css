@@ -99,7 +99,7 @@ Div.logo{
 	margin-top:10px;
 }
 
-Div.redes_sociales {
+Div.telefono_ventas {
     WIDTH: 480px;
 	height: 20px;
 	margin-left:540px;
@@ -112,10 +112,21 @@ Div.redes_sociales {
 	text-align:right;
 }
 
+Div.redes_sociales_encabezado_link {
+    WIDTH: 200px;
+	height: 25px;
+	margin-left:767px;
+	margin-top:0;
+    POSITION: absolute;
+	left: 2px;
+	top: 0px;
+	line-height:25px;
+}
+
 Div.redes_sociales_pie_pagina {
-    WIDTH: 480px;
+    WIDTH: 180px;
 	height: 30px;
-	margin-left:540px;
+	margin-left:840px;
 	margin-top:2px;
     POSITION: relative;
 	font-size: 14px;
@@ -198,10 +209,23 @@ Div.titulo_frame_menu_vertical_a{
 	top: 0px;
 }
 
-Div.body_automatismo{
+Div.body_link{
 	height:1300px;
 	width:1024px;
 	position:relative;
+}
+
+div.encabezado_link{
+	height:50px;
+	width:967px;        /*longitud total - espacios a la izquierda del texto  1024-57*/
+	position:relative;
+	color:#000000;
+	font-size:24px;
+	font:Arial;
+	color:#005300;
+	background-color:#97BD8A;
+	line-height:50px;
+	padding-left: 57px; /*espacios a la izquierda del texto*/
 }
 
 Div.frame_menu_vertical_ss{

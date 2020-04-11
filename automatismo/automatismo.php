@@ -4,12 +4,8 @@
 <div class="frame">
 <?php require_once('../libs/menu_horizontal.php'); ?>
 <!-- Cuerpo de link -->
-
-
-<div class="body_automatismo">habla</div>
-
-
-
+<div class="encabezado_link">Automatismo para puertas</div>
+<div class="body_link">habla</div>
 
 
 

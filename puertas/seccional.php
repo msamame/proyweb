@@ -4,6 +4,8 @@
 <div class="frame">
 <?php require_once('../libs/menu_horizontal.php'); ?>
 <!-- Cuerpo de link -->
+<div class="encabezado_link">Puertas seccionales</div>
+<div class="body_link">habla</div>
 
 
 
