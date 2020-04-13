@@ -31,7 +31,7 @@ color: #3366FF;
 <div class="marco_menu">
 <nav><ul>
    <li><a href="index.php">Inicio</a></li>
-   <li><a href="quienes_somos/quienes_somos.php">Quienes somos</a></li>
+   <li><a href="empresa/quienes_somos.php">Quienes somos</a></li>
    <li><a>Puertas</a>
       
 	  <ul>

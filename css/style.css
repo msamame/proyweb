@@ -113,11 +113,12 @@ Div.telefono_ventas {
 }
 
 Div.redes_sociales_encabezado_link {
-    WIDTH: 180px;
+    WIDTH: 184px;
 	height: 50px;
-	margin-left: 844px;
+	margin-left: 840px;
     POSITION:absolute;
 	background-color:#97BD8A;
+	text-align:left;
 	left: 0px;
 	top: 0px;
 }
@@ -132,7 +133,7 @@ Div.redes_sociales_pie_pagina {
 	font:Arial;
 	text-decoration:none;
 	color:#3366FF;
-	text-align:right;
+	text-align:left;
 }
 
 Div.direccion {
@@ -152,6 +153,13 @@ Div.frame_menu_vertical{
 	height:200px;
 	width:1024px;
 	position:relative;
+}
+
+Div.frame_menu_automatismo{
+	height:1300px;
+	width:1024px;
+	position:relative;
+	top:5px;
 }
 
 Div.frame_pos_vertical{
@@ -208,11 +216,28 @@ Div.titulo_frame_menu_vertical_a{
 	top: 0px;
 }
 
-Div.body_link{
+Div.body_link_menu_izquierda{
 	height:1300px;
-	width:1024px;
-	position:relative;
+	width:824px;
+	position:absolute;
+	top:0px;
+	left: 200px;
+	font:Arial;
+	font-size:12px;
+	color:#000000;	
 }
+
+Div.body_link_centro_pagina{
+	height:1300px;
+	width:824px;
+	position:relative;
+	top:0px;
+	/*left: 200px;*/
+	font:Arial;
+	font-size:12px;
+	color:#000000;	
+}
+
 
 div.encabezado_link{
 	height:50px;

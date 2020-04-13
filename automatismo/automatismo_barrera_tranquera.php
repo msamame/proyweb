@@ -6,8 +6,12 @@
 <!-- Cuerpo de link -->
 <div class="encabezado_link">Automatismo para puertas<?php require_once('../libs/rs_encabezado_link.php');?></div>
 <div class="frame_menu_automatismo"> <?php require_once('../libs/menu_automatismo.php');?>
+
 <div class="body_link_menu_izquierda">
-contenido automatismo
+Contenido automatismo barrera - tranquera
+
+
+
 
 </div>
 </div>
