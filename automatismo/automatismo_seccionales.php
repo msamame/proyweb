@@ -4,11 +4,11 @@
 <div class="frame">
 <?php require_once('../libs/menu_horizontal.php'); ?>
 <!-- Cuerpo de link -->
-<div class="encabezado_link">Automatismo para puertas<?php require_once('../libs/rs_encabezado_link.php');?></div>
+<div class="encabezado_link">Automatismo para puertas seccionales<?php require_once('../libs/rs_encabezado_link.php');?></div>
 <div class="frame_menu_automatismo"> <?php require_once('../libs/menu_automatismo.php');?>
 <div class="body_link_menu_izquierda">
-Contenido automatismo de puertas seccionales
-
+<div class="menu_contenido_seccionales"><?php require_once('../automatismo/menu_contenido_seccionales.php'); ?></div>
+<div class="contenido_seccionales"></div>
 
 
 

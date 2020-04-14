@@ -227,6 +227,27 @@ Div.body_link_menu_izquierda{
 	color:#000000;	
 }
 
+Div.menu_contenido_seccionales{
+	height:510px;
+	width:150px;
+	position:absolute;
+	top:0px;
+	left:30px;
+	font:Arial;
+	font-size:12px;
+	color:#000000;	
+}
+
+Div.contenido_seccionales{
+	height:510px;
+	width:500px;
+	position:relative;
+	top:0px;
+	left:200px;
+
+}
+
+
 Div.body_link_centro_pagina{
 	height:1300px;
 	width:824px;
