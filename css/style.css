@@ -156,7 +156,7 @@ Div.frame_menu_vertical{
 }
 
 Div.frame_menu_automatismo{
-	height:1300px;
+	height:990px;
 	width:1024px;
 	position:relative;
 	top:5px;
@@ -217,7 +217,7 @@ Div.titulo_frame_menu_vertical_a{
 }
 
 Div.body_link_menu_izquierda{
-	height:1300px;
+	height:990px;
 	width:824px;
 	position:absolute;
 	top:0px;
@@ -239,17 +239,16 @@ Div.menu_contenido_seccionales{
 }
 
 Div.contenido_seccionales{
-	height:510px;
+	height:985px;
 	width:500px;
 	position:relative;
 	top:0px;
-	left:200px;
+	left:230px;
 
 }
 
-
 Div.body_link_centro_pagina{
-	height:1300px;
+	height:990px;
 	width:824px;
 	position:relative;
 	top:0px;
@@ -258,7 +257,6 @@ Div.body_link_centro_pagina{
 	font-size:12px;
 	color:#000000;	
 }
-
 
 div.encabezado_link{
 	height:50px;
@@ -269,6 +267,7 @@ div.encabezado_link{
 	color:#005300;
 	background-color:#97BD8A;
 	line-height:50px;
+	text-align:center;
 	padding-left: 57px; /*espacios a la izquierda del texto*/
 }
 
@@ -290,6 +289,18 @@ Div.titulo_frame_menu_vertical_ss{
 	position:absolute;
 	left: 2px;
 	top: 0px;
+}
+
+
+Div.formulario_solicitud{
+	height:475px;
+	width:301px;
+	position:relative;
+	top:20px;
+	left:0px;
+	font:Arial;
+	font-size:12px;
+	color:#000000;	
 }
 
 Div.frame{ /*Frame principal, le da el tamaño total a la página web*/

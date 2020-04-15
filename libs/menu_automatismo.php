@@ -6,25 +6,25 @@
 
 <table width="200" border="1" bordercolor="#97BD8A" cellspacing="0" bgcolor="#97BD8A" style="border-bottom-color:#FFFFFF ; border-right-color:#FFFFFF" >
   <tr>
-    <td height="33" style="border-right-color:#97BD8A"><a href="../automatismo/automatismo_seccionales.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Seccionales</a></td>
+    <td height="33" style="border-right-color:#97BD8A"><a href="../automatismo/automatismo_seccionales.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Automatismo puertas seccionales</a></td>
   </tr>
   <tr>
-    <td height="33" style="border-right-color:#97BD8A"><a href="../automatismo/automatismo_enrollables.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Enrollables</a></td>
+    <td height="33" style="border-right-color:#97BD8A"><a href="../automatismo/automatismo_enrollables.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Automatismo puertas Enrollables</a></td>
   </tr>
   <tr>
-    <td height="33" style="border-right-color:#97BD8A"><a href="../automatismo/automatismo_corredizas.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Corredizas</a></td>
+    <td height="33" style="border-right-color:#97BD8A"><a href="../automatismo/automatismo_corredizas.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Automatismo puertas Corredizas</a></td>
   </tr>
   <tr>
-    <td height="33" style="border-right-color:#97BD8A"><a href="../automatismo/automatismo_batientes.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Batientes</a></td>
+    <td height="33" style="border-right-color:#97BD8A"><a href="../automatismo/automatismo_batientes.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Automatismo puertas Batientes</a></td>
   </tr>
   <tr>
-    <td height="33" style="border-right-color:#97BD8A"><a href="../automatismo/automatismo_vidrio.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Vidrio</a></td>
+    <td height="33" style="border-right-color:#97BD8A"><a href="../automatismo/automatismo_vidrio.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Automatismo puertas de Vidrio</a></td>
   </tr>
   <tr>
-    <td height="33" style="border-right-color:#97BD8A"><a href="../automatismo/automatismo_barrera_tranquera.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Barrera o tranquera</a></td>
+    <td height="33" style="border-right-color:#97BD8A"><a href="../automatismo/automatismo_barrera_tranquera.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Automatismo Barrera o tranquera</a></td>
   </tr>  
   <tr>
-    <td height="33" style="border-right-color:#97BD8A; border-bottom-color:#97BD8A"><a href="../automatismo/automatismo_cortina_persianas.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Cortina y persianas</a></td>
+    <td height="33" style="border-right-color:#97BD8A; border-bottom-color:#97BD8A"><a href="../automatismo/automatismo_cortina_persianas.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Automatismo Cortina y persianas</a></td>
   </tr>
 </table>
 
