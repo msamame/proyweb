@@ -12,7 +12,7 @@
 	
 	<tr>
       <td><label for="company" style="font-size:12px">Empresa</label></td>
-      <td><input type="text" id="compa&ntilde;y" name="name_company" placeholder="Numbre de tu empresa" pattern=[A-Z\sa-z]{3,20} required style="font-size:12px" /></td>
+      <td><input type="text" id="compa&ntilde;y" name="name_company" placeholder="Numbre de tu empresa" style="font-size:12px" /></td>
     </tr>
 	
     <tr>
@@ -21,7 +21,7 @@
 	
     <tr>
       <td><label for="name" style="font-size:12px">Nombre</label></td>
-      <td><input type="text" id="name" name="visitor_name" placeholder="Tu nombre" pattern=[A-Z\sa-z]{3,20} required style="font-size:12px" /></td>
+      <td><input type="text" id="name" name="visitor_name" placeholder="Tu nombre" style="font-size:12px" /></td>
     </tr>
 	
     <tr>
@@ -30,7 +30,7 @@
 
     <tr>
       <td><label for="name" style="font-size:12px">Teléfono</label></td>
-      <td><input type="text" id="name" name="visitor_tf" placeholder="solo números" pattern="^[1-9]\d*$" required style="font-size:12px" /></td>
+      <td><input type="text" id="name" name="visitor_tf" placeholder="Solo números" pattern="^[1-9]\d*$" required style="font-size:12px" /></td>
     </tr>
 	
     <tr>
@@ -41,7 +41,7 @@
 	
     <tr>
       <td><label for="email" style="font-size:12px">E-mail</label></td>
-      <td><input type="email" id="email" name="visitor_email" placeholder="formato (abc@abcde.com)" required style="font-size:12px" /></td>
+      <td><input type="email" id="email" name="visitor_email" placeholder="Formato (abc@abcde.com)" required style="font-size:12px" /></td>
     </tr>
 	
     <tr>
@@ -50,7 +50,7 @@
 	
     <tr>
       <td><label for="title" style="font-size:12px">Asunto</label></td>
-      <td><input type="text" id="title" name="email_title" required placeholder="Informacion" pattern=[A-Za-z0-9\s]{8,60} style="font-size:12px" /></td>
+      <td><input type="text" id="title" name="email_title" required placeholder="Título" style="font-size:12px" /></td>
     </tr>
 	
     <tr>
@@ -68,21 +68,22 @@
 	
 
     <tr>
-      <td><button type="submit" style="font-size:12px">enviar</button></td>
+      <td colspan="2"><button type="submit" style="font-size:12px">enviar solicitud</button></td>
     </tr>
+	
   </table>
 </form>
 
 
 
 <?php
- 
+
 if($_POST) {
     $name_company = "";
     $visitor_name = "";
+	$visitor_tf = "";
     $visitor_email = "";
-    $email_title = "";
-    $concerned_department = "";
+	$email_title = "";
     $visitor_message = "";
 	
 	if(isset($_POST['name_company'])) {
@@ -92,6 +93,10 @@ if($_POST) {
     if(isset($_POST['visitor_name'])) {
       $visitor_name = filter_var($_POST['visitor_name'], FILTER_SANITIZE_STRING);
     }
+	
+    if(isset($_POST['visitor_tf'])) {
+      $visitor_tf = filter_var($_POST['visitor_tf'], FILTER_SANITIZE_STRING);
+    }
      
     if(isset($_POST['visitor_email'])) {
         $visitor_email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $_POST['visitor_email']);
@@ -100,28 +105,38 @@ if($_POST) {
      
     if(isset($_POST['email_title'])) {
         $email_title = filter_var($_POST['email_title'], FILTER_SANITIZE_STRING);
+		$email_title = iconv("UTF-8", "ISO-8859-1", $email_title);
     }
      
-   
     if(isset($_POST['visitor_message'])) {
         $visitor_message = htmlspecialchars($_POST['visitor_message']);
     }
-     
     
-    $headers  = 'MIME-Version: 1.0' . "\r\n"
+	// por siacaso
+    $headers  = 'MIME-Version: 1.0' . "\r\n" 
     .'Content-type: text/html; charset=utf-8' . "\r\n"
     .'From: ' . $visitor_email . "\r\n";
+	// por siacaso
+	
+	$mensaje='
+    Solicitud de '.iconv("UTF-8", "ISO-8859-1", 'información'). ' '.iconv("UTF-8", "ISO-8859-1", 'técnica').' TODOPUERTAS AUTOMATICAS
+
+    Datos del Cliente 
+
+    Empresa     :  '.iconv("UTF-8", "ISO-8859-1", $name_company).'   
+    Nombres     :  '.iconv("UTF-8", "ISO-8859-1", $visitor_name).'
+    '.iconv("UTF-8", "ISO-8859-1", 'Teléfono').'     :  '.iconv("UTF-8", "ISO-8859-1", $visitor_tf).'
+    Correo     :  '.iconv("UTF-8", "ISO-8859-1", $visitor_email).'
+	Comentario :  '.iconv("UTF-8", "ISO-8859-1", $visitor_message).'
+    ';
      
-      if(mail($visitor_email, $email_title, $visitor_message)) {
-	  
-		echo "Thank you for contacting us, $visitor_name. You will get a reply within 24 hours";  
-		 
+      if(mail($visitor_email, $email_title, $mensaje)) {
+		echo "Gracias por contactarnos, $visitor_name. Estaremos respondiendo tu solicitus muy pronto.";  
     } else {
-        echo '<p>We are sorry but the email did not go through.</p>';
+        echo '<p>Lo sentimos el email ingresado no es válido.</p>';
     }
-     
 } else {
-    echo '<p>Something went wrong</p>';
+    echo '<p>Algo salió mal, porfavor revise sus datos... </p>';
 }
  
 ?>
