@@ -32,7 +32,6 @@ La presencia del encoder garantiza también la máxima precisión en las fases d
   </tr>
 </table>
 
-
 <div class="formulario_solicitud"><?php require_once('../empresa/formulario_solicitud.php'); ?>
 
 </div>

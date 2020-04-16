@@ -1,47 +1,75 @@
-<form action="../empresa/formulario_solicitud.php" method="post">
-<table width="250" border="0" cellpadding="0">
-
-    <tr>
-	<td><label for="company" style="font-size:14px">Empresa</label></td>
-    <td><input type="text" id="compa�y" name="name_company" placeholder="Todopuertas automaticas" pattern=[A-Z\sa-z]{3,20} required style="font-size:14px"></td>
-    </tr>
-
-
-    <tr>
-	<td><label for="name" style="font-size:14px">Nombre</label></td>
-    <td><input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required style="font-size:14px"></td>
-    </tr>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+  <table width="250" border="0" cellpadding="0">
   
-
-    <tr>
-	<td><label for="email" style="font-size:14px">E-mail</label></td>
-    <td><input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required style="font-size:14px"></td>
-    </tr>
+  <tr>
+     <td colspan="2"><img src="../img/logo.png" width="134" height="26" alt="" style="vertical-align:bottom" border="0"/></td>
+  </tr>
   
-    <tr>
-    <td><label for="department-selection" style="font-size:14px">Choose Concerned Department</label></td>
-    <td><select id="department-selection" name="concerned_department" required style="font-size:14px">
-        <option value="">Select a Department</option>
-        <option value="billing">Billing</option>
-        <option value="marketing">Marketing</option>
-        <option value="technical support">Technical Support</option>
-    </select></td>
-    </tr>
-  
-    <tr>
-    <td><label for="title" style="font-size:14px">Asunto</label></td>
-    <td><input type="text" id="title" name="email_title" required placeholder="Unable to Reset my Password" pattern=[A-Za-z0-9\s]{8,60} style="font-size:14px"></td>
-    </tr>
-  
-    <tr>
-    <td><label for="message" style="font-size:14px">Mensaje</label></td>
-    <td><textarea id="message" name="visitor_message" placeholder="Say whatever you want." required style="font-size:14px"></textarea></td>
+   <tr>
+      <td colspan="2" height="13">&nbsp;</td>
     </tr>
 	
-  <tr>
-  <td><button type="submit" style="font-size:14px">enviar</button></td>
-  </tr>
-	  
+	<tr>
+      <td><label for="company" style="font-size:12px">Empresa</label></td>
+      <td><input type="text" id="compa&ntilde;y" name="name_company" placeholder="Numbre de tu empresa" pattern=[A-Z\sa-z]{3,20} required style="font-size:12px" /></td>
+    </tr>
+	
+    <tr>
+      <td colspan="2" height="5">&nbsp;</td>
+    </tr>
+	
+    <tr>
+      <td><label for="name" style="font-size:12px">Nombre</label></td>
+      <td><input type="text" id="name" name="visitor_name" placeholder="Tu nombre" pattern=[A-Z\sa-z]{3,20} required style="font-size:12px" /></td>
+    </tr>
+	
+    <tr>
+      <td colspan="2" height="5">&nbsp;</td>
+    </tr>
+
+    <tr>
+      <td><label for="name" style="font-size:12px">Teléfono</label></td>
+      <td><input type="text" id="name" name="visitor_tf" placeholder="solo números" pattern="^[1-9]\d*$" required style="font-size:12px" /></td>
+    </tr>
+	
+    <tr>
+      <td colspan="2" height="5">&nbsp;</td>
+    </tr>
+
+
+	
+    <tr>
+      <td><label for="email" style="font-size:12px">E-mail</label></td>
+      <td><input type="email" id="email" name="visitor_email" placeholder="formato (abc@abcde.com)" required style="font-size:12px" /></td>
+    </tr>
+	
+    <tr>
+      <td colspan="2" height="5">&nbsp;</td>
+    </tr>
+	
+    <tr>
+      <td><label for="title" style="font-size:12px">Asunto</label></td>
+      <td><input type="text" id="title" name="email_title" required placeholder="Informacion" pattern=[A-Za-z0-9\s]{8,60} style="font-size:12px" /></td>
+    </tr>
+	
+    <tr>
+      <td colspan="2" height="5">&nbsp;</td>
+    </tr>
+	
+    <tr>
+      <td><label for="message" style="font-size:12px">Mensaje</label></td>
+      <td><textarea id="message" name="visitor_message" placeholder="Contenido" required style="font-size:12px"></textarea></td>
+    </tr>
+	
+    <tr>
+      <td colspan="2" height="5">&nbsp;</td>
+    </tr>
+	
+
+    <tr>
+      <td><button type="submit" style="font-size:12px">enviar</button></td>
+    </tr>
   </table>
 </form>
 
@@ -74,33 +102,20 @@ if($_POST) {
         $email_title = filter_var($_POST['email_title'], FILTER_SANITIZE_STRING);
     }
      
-    if(isset($_POST['concerned_department'])) {
-        $concerned_department = filter_var($_POST['concerned_department'], FILTER_SANITIZE_STRING);
-    }
-     
+   
     if(isset($_POST['visitor_message'])) {
         $visitor_message = htmlspecialchars($_POST['visitor_message']);
     }
      
-    if($concerned_department == "billing") {
-        $recipient = "fanwakuay@gmail.com";
-    }
-    else if($concerned_department == "marketing") {
-        $recipient = "fanwakuay@gmail.com";
-    }
-    else if($concerned_department == "technical support") {
-        $recipient = "fanwakuay@gmail.com";
-    }
-    else {
-        $recipient = "fanwakuay@gmail.com";
-    }
-     
+    
     $headers  = 'MIME-Version: 1.0' . "\r\n"
     .'Content-type: text/html; charset=utf-8' . "\r\n"
     .'From: ' . $visitor_email . "\r\n";
      
-    if(mail("fanwakuay@gmail.com","Correo de prueba","Esto es un correo de prueba","manuel_samame_farfan@hotmail.com.com")) {
-        echo "<p>Thank you for contacting us, $visitor_name. You will get a reply within 24 hours.</p>";
+      if(mail($visitor_email, $email_title, $visitor_message)) {
+	  
+		echo "Thank you for contacting us, $visitor_name. You will get a reply within 24 hours";  
+		 
     } else {
         echo '<p>We are sorry but the email did not go through.</p>';
     }
