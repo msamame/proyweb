@@ -166,7 +166,10 @@ Div.frame_pos_vertical{
 	height:200px;
 	width:1024px;
 	position:relative;
-	background-color:#CCCCCC;
+	/*background-color:#CCCCCC;*/ 
+	background-color:#97BD8A;
+	font:Arial;
+	color:#005300;
 }
 
 Div.frame_pie_pagina{
@@ -309,4 +312,33 @@ Div.frame{ /*Frame principal, le da el tamaño total a la página web*/
 	POSITION: relative;
 	MARGIN: auto;
 	BACKGROUND: white;
+}
+
+Div.frame_menu_vertical_qs{
+	height:717px;
+	width:300px;
+	position:relative;
+	top:10px;
+}
+
+Div.body_link_centro_pagina_qs{
+	height:717px;
+	width:720px;
+	position:absolute;
+	margin-top:0px;
+	margin-left:307px;
+	left: 0px;
+	top: 0px;
+}
+
+Div.frame_direcc_contacto{
+	height:717px;
+	width:300px;
+	position:absolute;
+	top:0px;
+	font:Arial;
+	font-size:14px;
+	margin-left:600px;
+	left: 0px;
+	/*margin-top:0px;*/
 }

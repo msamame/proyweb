@@ -1,76 +1,71 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
   <table width="250" border="0" cellpadding="0">
-  
-  <tr>
-     <td colspan="2"><img src="../img/logo.png" width="134" height="26" alt="" style="vertical-align:bottom" border="0"/></td>
-  </tr>
-  
-   <tr>
-      <td colspan="2" height="13">&nbsp;</td>
-    </tr>
-	
-	<tr>
-      <td><label for="company" style="font-size:12px">Empresa</label></td>
-      <td><input type="text" id="compa&ntilde;y" name="name_company" placeholder="Nombre de tu empresa" style="font-size:12px" /></td>
-    </tr>
-	
     <tr>
-      <td colspan="2" height="5">&nbsp;</td>
+      <td colspan="3" height="13">&nbsp;</td>
     </tr>
-	
     <tr>
-      <td><label for="name" style="font-size:12px">Nombre</label></td>
+      <td colspan="3" height="13">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" height="13">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" height="13">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" align="left" style="font-size:18px; font:Arial; color:#005300; font-weight:bold">&nbsp;&nbsp;Contáctenos</td>
+    </tr>
+    <tr>
+      <td colspan="3" height="13">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="2"><label for="company" style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;Empresa</label></td>
+      <td width="167"><input type="text" id="compañy" name="name_company" placeholder="Nombre de tu empresa" style="font-size:12px" /></td>
+    </tr>
+    <tr>
+      <td colspan="3" height="5">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="2"><label for="name" style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;Nombre</label></td>
       <td><input type="text" id="name" name="visitor_name" placeholder="Tu nombre" style="font-size:12px" /></td>
     </tr>
-	
     <tr>
-      <td colspan="2" height="5">&nbsp;</td>
+      <td colspan="3" height="5">&nbsp;</td>
     </tr>
-
     <tr>
-      <td><label for="name" style="font-size:12px">Teléfono</label></td>
+      <td colspan="2"><label for="name" style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;Teléfono</label></td>
       <td><input type="text" id="name" name="visitor_tf" placeholder="Solo números" pattern="^[1-9]\d*$" required style="font-size:12px" /></td>
     </tr>
-	
     <tr>
-      <td colspan="2" height="5">&nbsp;</td>
+      <td colspan="3" height="5">&nbsp;</td>
     </tr>
-
-
-	
     <tr>
-      <td><label for="email" style="font-size:12px">E-mail</label></td>
+      <td colspan="2"><label for="email" style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;E-mail</label></td>
       <td><input type="email" id="email" name="visitor_email" placeholder="Formato (abc@abcde.com)" required style="font-size:12px" /></td>
     </tr>
-	
     <tr>
-      <td colspan="2" height="5">&nbsp;</td>
+      <td colspan="3" height="5">&nbsp;</td>
     </tr>
-	
     <tr>
-      <td><label for="title" style="font-size:12px">Asunto</label></td>
+      <td colspan="2"><label for="title" style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;Asunto</label></td>
       <td><input type="text" id="title" name="email_title" required placeholder="Título" style="font-size:12px" /></td>
     </tr>
-	
     <tr>
-      <td colspan="2" height="5">&nbsp;</td>
+      <td colspan="3" height="5">&nbsp;</td>
     </tr>
-	
     <tr>
-      <td><label for="message" style="font-size:12px">Mensaje</label></td>
+      <td colspan="2"><label for="message" style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;Mensaje</label></td>
       <td><textarea id="message" name="visitor_message" placeholder="Contenido" required style="font-size:12px"></textarea></td>
     </tr>
-	
     <tr>
-      <td colspan="2" height="5">&nbsp;</td>
+      <td colspan="3" height="5">&nbsp;</td>
     </tr>
-	
-
     <tr>
-      <td colspan="2"><button type="submit" style="font-size:12px">enviar solicitud</button></td>
+      <td width="12">&nbsp;&nbsp;</td>
+      <td width="63"><button type="submit" style="font-size:12px">enviar</button></td>
+      <td>&nbsp;</td>
     </tr>
-	
   </table>
 </form>
 
