@@ -237,8 +237,6 @@ Div.menu_contenido_seccionales{
 	top:0px;
 	left:30px;
 	font:Arial;
-	font-size:12px;
-	color:#000000;	
 }
 
 Div.contenido_seccionales{
@@ -247,7 +245,6 @@ Div.contenido_seccionales{
 	position:relative;
 	top:0px;
 	left:230px;
-
 }
 
 Div.body_link_centro_pagina{

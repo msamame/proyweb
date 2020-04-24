@@ -12,7 +12,7 @@
 <div class="contenido_seccionales">
 <table width="500" border="0">
   <tr>
-    <td height="29" bgcolor="#97BD8A" style="font:Arial; font-size:16px; color:005300; text-align:center">NAOS</td>
+    <td height="29" bgcolor="#97BD8A" style="font:Arial; font-size:16px; color:#005300; text-align:center; font-weight:bold">NAOS</td>
     <td height="29" style="text-align:center"><img src="../img/aps02.jpg" border="0"/></td>
   </tr>
   
