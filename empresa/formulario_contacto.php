@@ -7,14 +7,9 @@
     <tr>
       <td colspan="3" height="13">&nbsp;</td>
     </tr>
+        
     <tr>
-      <td colspan="3" height="13">&nbsp;</td>
-    </tr>
-    <tr>
-      <td colspan="3" height="13">&nbsp;</td>
-    </tr>
-    <tr>
-      <td colspan="3" align="left" style="font-size:18px; font:Arial; color:#005300; font-weight:bold">&nbsp;&nbsp;Contáctenos</td>
+      <td colspan="3" align="left" style="font-size:29px; font:Arial; color:#005300; font-weight:bold">&nbsp;&nbsp;Contáctenos</td>
     </tr>
     <tr>
       <td colspan="3" height="13">&nbsp;</td>

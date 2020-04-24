@@ -342,3 +342,24 @@ Div.frame_direcc_contacto{
 	left: 0px;
 	/*margin-top:0px;*/
 }
+
+Div.body_link_centro_pagina_si{
+	height:617px;
+	width:250px;
+	position:relative;
+	margin-top:23px;
+	margin-left:387px;
+	left: 0px;
+	top: 0px;
+}
+
+
+Div.body_link_centro_pagina_pe{
+	height:880px;
+	width:950px;
+	position:relative;
+	margin-top:23px;
+	margin-left:70px;
+	left: 0px;
+	top: 0px;
+}

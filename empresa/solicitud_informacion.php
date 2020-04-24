@@ -7,7 +7,7 @@
 
 <div class="encabezado_link">Solicitud de información<?php require_once('../libs/rs_encabezado_link.php');?></div>
 
-<div class="body_link_centro_pagina">
+<div class="body_link_centro_pagina_si">
 <?php require_once('../empresa/formulario_solicitud.php'); ?></div>
 
 

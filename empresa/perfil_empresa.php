@@ -6,13 +6,14 @@
 <!-- Cuerpo de link -->
 <div class="encabezado_link">Todo puertas automáticas<?php require_once('../libs/rs_encabezado_link.php');?></div>
 
-<div class="body_link_centro_pagina">
-contenido perfil empresa</div>
+<div class="body_link_centro_pagina_pe">
+contenido perfil empresa
+<?php require_once('../empresa/contenidope.php');?>
+
+<div class="formulario_solicitud"><?php require_once('../empresa/formulario_contacto.php'); ?></div>
 
 
-
-
-
+</div>
 
 <!-- Fin cuerpo de link -->
 <?php require_once('../libs/pie_pagina.php'); ?>
