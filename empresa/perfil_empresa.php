@@ -8,7 +8,7 @@
 
 <div class="body_link_centro_pagina_pe">
 contenido perfil empresa
-<?php require_once('../empresa/contenidope.php');?>
+  <?php require_once('../empresa/contenidope.php');?>
 
 <div class="formulario_solicitud"><?php require_once('../empresa/formulario_contacto.php'); ?></div>
 

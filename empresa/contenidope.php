@@ -1,10 +1,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <table width="876" border="0">
   <tr>
-    <td colspan="2"><img src="../img/logo.png" width="265" height="44" alt="" style="vertical-align:bottom" border="0"/></td>
-  </tr>
-  <tr>
-    <td colspan="2" height="37">&nbsp;</td>
+    <td colspan="2" height="7">&nbsp;</td>
   </tr>
   <tr>
     <td colspan="2" align="left" style="font-size:33px; font:Arial; color:#005300; font-weight:bold">Ficha Comercial</td>
