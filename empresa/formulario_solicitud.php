@@ -1,6 +1,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-  <table width="250" border="0" cellpadding="0">
+  <table width="250" border="0" cellpadding="0" align="center">
   
   <tr>
      <td colspan="2"><img src="../img/logo.png" width="134" height="26" alt="" style="vertical-align:bottom" border="0"/></td>
