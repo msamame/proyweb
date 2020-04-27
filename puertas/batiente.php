@@ -4,7 +4,7 @@
 <div class="frame">
 <?php require_once('../libs/menu_horizontal.php'); ?>
 <!-- Cuerpo de link -->
-<div class="encabezado_link">Puertas batientes<?php require_once('../libs/rs_encabezado_link.php');?></div>
+<div class="encabezado_link">Puertas batientes</div>
 <div class="body_link_centro_pagina">
 contenido puertas batientes</div>
 

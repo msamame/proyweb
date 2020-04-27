@@ -4,7 +4,7 @@
 <div class="frame">
 <?php require_once('../libs/menu_horizontal.php'); ?>
 <!-- Cuerpo de link -->
-<div class="encabezado_link">Todo puertas automáticas<?php require_once('../libs/rs_encabezado_link.php');?></div>
+<div class="encabezado_link">Todo puertas automáticas</div>
 <div class="frame_menu_vertical_qs">
 <img src="../img/qsomos.png" border="0"/>
 <img src="../img/qsomos3.png" border="0" style="margin-top:62px"/>

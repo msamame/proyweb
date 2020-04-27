@@ -18,7 +18,7 @@
     <td height="33" style="border-right-color:#3366FF"><a href="empresa/publicaciones.php" target="_self" style="color:#FFFFFF; font-size:14px ; text-decoration:none">&nbsp;Publicaciones</a></td>
   </tr>
   <tr>
-    <td height="33" style="border-right-color:#3366FF; border-bottom-color:#3366FF"><a href="empresa/videos.php" target="_self" style="color:#FFFFFF; font-size:14px ; text-decoration:none">&nbsp;Videos</a></td>
+    <td height="33" style="border-right-color:#3366FF; border-bottom-color:#3366FF"><a href="empresa/videos.php" target="_self" style="color:#FFFFFF; font-size:14px ; text-decoration:none">&nbsp;Proyectos realizados</a></td>
   </tr>
   
   <tr>

@@ -21,4 +21,6 @@
       <li><a href="../automatismo/automatismo.php">Automatismo</a></li>
       <li><a href="../contacto/contacto.php">Contacto</a></li>
 </ul></nav>
+<?php require_once('../libs/rs_encabezado_link.php');?>
 </div>
+

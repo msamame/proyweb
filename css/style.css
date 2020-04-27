@@ -80,6 +80,7 @@ DIV.marco_menu {   /*crea un marco para el menú horizontal*/
     WIDTH: 1024px;
 	/*background-color:#3366FF;*/
 	background-color:#FFFFFF;
+	height:35px;
 }
 
 DIV.marco_logo {   /*crea un marco para el menú horizontal*/
@@ -117,7 +118,7 @@ Div.redes_sociales_encabezado_link {
 	height: 50px;
 	margin-left: 840px;
     POSITION:absolute;
-	background-color:#97BD8A;
+	/*background-color:#97BD8A;*/
 	text-align:left;
 	left: 0px;
 	top: 0px;
@@ -260,7 +261,7 @@ Div.body_link_centro_pagina{
 
 div.encabezado_link{
 	height:50px;
-	width:844px;        /*longitud total - espacios a la izquierda del texto  1024-57*/
+	width:1024px;        /*longitud total - espacios a la izquierda del texto  1024-57*/
 	position:relative;
 	font-size:24px;
 	font:Arial;
@@ -268,7 +269,7 @@ div.encabezado_link{
 	background-color:#97BD8A;
 	line-height:50px;
 	text-align:center;
-	padding-left: 57px; /*espacios a la izquierda del texto*/
+	/*padding-left: 57px; /*espacios a la izquierda del texto*/
 }
 
 Div.frame_menu_vertical_ss{

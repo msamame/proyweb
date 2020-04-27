@@ -4,7 +4,7 @@
 <div class="frame">
 <?php require_once('../libs/menu_horizontal.php'); ?>
 <!-- Cuerpo de link -->
-<div class="encabezado_link">Automatismo para puertas de vidrio<?php require_once('../libs/rs_encabezado_link.php');?></div>
+<div class="encabezado_link">Automatismo para puertas de vidrio</div>
 <div class="frame_menu_automatismo"> <?php require_once('../libs/menu_automatismo.php');?>
 <div class="body_link_menu_izquierda">
 Contenido automatismo para puertas de vidrio

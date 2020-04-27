@@ -45,6 +45,7 @@ color: #3366FF;
     </li>
       <li><a href="automatismo/automatismo.php">Automatismo</a></li>
       <li><a href="contacto/contacto.php">Contacto</a></li>
+	  <?php require_once('libs/rs_encabezado_link_index.php');?>
 </ul></nav>
 </div>
 

@@ -25,11 +25,23 @@
   </tr>  
   <tr>
     <td height="33" style="border-right-color:#97BD8A; border-bottom-color:#97BD8A"><a href="../automatismo/automatismo_cortina_persianas.php" target="_self" style="color:#005300; font-size:14px ; text-decoration:none">&nbsp;Automatismo Cortina y persianas</a></td>
+
   </tr>
 </table>
 
-
-
+<table width="200" height="100" border="0">
+   <tr>
+      <td align="center">
+      <a href="../empresa/videos.php" target="_self"><img src="../img/vcamara.png" width="79px" height="70px" border="0"/></a>
+      </td>
+   </tr>
+   
+   <tr>
+   <td height="23" style="font-size:14px; color:#005300; text-align:center">Proyectos realizados
+   </td>
+   </tr>
+   
+</table>
 
 
 
