@@ -6,8 +6,7 @@
 <!-- Cuerpo de link -->
 <div class="encabezado_link">Todo puertas automáticas - Proyectos realizados<?php require_once('../libs/rs_encabezado_link.php');?></div>
 
-<div class="body_link_centro_pagina">
-contenido videos</div>
+<div class="body_link_centro_pagina_videos"> <?php require_once('../empresa/contenidov.php');?> </div>
 
 
 
