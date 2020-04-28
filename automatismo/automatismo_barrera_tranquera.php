@@ -6,9 +6,10 @@
 <!-- Cuerpo de link -->
 <div class="encabezado_link">Automatismo para barreras y tranqueras</div>
 <div class="frame_menu_automatismo"> <?php require_once('../libs/menu_automatismo.php');?>
-
 <div class="body_link_menu_izquierda">
-Contenido automatismo barrera - tranquera
+<div class="menu_contenido_automatismo"><?php require_once('../automatismo/menu_contenido_barrera_tranquera.php'); ?></div>
+<div class="contenido_seccionales"></div>
+
 
 
 

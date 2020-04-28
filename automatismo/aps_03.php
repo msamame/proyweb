@@ -7,7 +7,7 @@
 <div class="encabezado_link">Automatismo para puertas seccionales</div>
 <div class="frame_menu_automatismo"> <?php require_once('../libs/menu_automatismo.php');?>
 <div class="body_link_menu_izquierda">
-<div class="menu_contenido_seccionales"><?php require_once('../automatismo/menu_contenido_seccionales.php'); ?></div>
+<div class="menu_contenido_automatismo"><?php require_once('../automatismo/menu_contenido_seccionales.php'); ?></div>
 
 <div class="contenido_seccionales">
 <table width="500" border="0">

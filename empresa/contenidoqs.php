@@ -87,8 +87,16 @@
     </tr>
 
 	<tr>
-      <td height="28">&nbsp;</td>
-      <td height="28" colspan="3" >&nbsp;</td>
+	  <td height="28">&nbsp;</td>
+	  <td height="28" colspan="3" >&nbsp;</td>
+  </tr>
+	<tr>
+	  <td height="28" style="vertical-align:middle; color:#005300; font-size:14px; font-weight:bold">Proyectos</td>
+	  <td height="28" colspan="3" ><a href="../empresa/videos.php" target="_self"><img src="../img/vcamara.png" width="79px" height="70px" border="0"/></a></td>
+  </tr>
+	<tr>
+      <td height="23">&nbsp;</td>
+      <td height="23" colspan="3">&nbsp;</td>
     </tr>
 
 	<tr>
@@ -98,3 +106,4 @@
 	  <td width="315" align="right" >&nbsp;<img src="../img/qsomos2.png" border="0"/></td>
 	</tr>		
 </table>
+

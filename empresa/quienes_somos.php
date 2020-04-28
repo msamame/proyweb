@@ -7,7 +7,7 @@
 <div class="encabezado_link">Todo puertas automáticas</div>
 <div class="frame_menu_vertical_qs">
 <img src="../img/qsomos.png" border="0"/>
-<img src="../img/qsomos3.png" border="0" style="margin-top:62px"/>
+<img src="../img/qsomos3.png" border="0" style="margin-top:158px"/>
 <div class="body_link_centro_pagina_qs">
 <?php require_once('../empresa/contenidoqs.php');?>
 </div>

@@ -7,7 +7,8 @@
 <div class="encabezado_link">Automatismo para puertas enrollables</div>
 <div class="frame_menu_automatismo"> <?php require_once('../libs/menu_automatismo.php');?>
 <div class="body_link_menu_izquierda">
-Contenido automatismo para puertas enrollables
+<div class="menu_contenido_automatismo"><?php require_once('../automatismo/menu_contenido_enrollables.php'); ?></div>
+<div class="contenido_seccionales"></div>
 
 
 

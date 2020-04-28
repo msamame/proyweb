@@ -7,7 +7,8 @@
 <div class="encabezado_link">Automatismo para puertas de vidrio</div>
 <div class="frame_menu_automatismo"> <?php require_once('../libs/menu_automatismo.php');?>
 <div class="body_link_menu_izquierda">
-Contenido automatismo para puertas de vidrio
+<div class="menu_contenido_automatismo"><?php require_once('../automatismo/menu_contenido_vidrio.php'); ?></div>
+<div class="contenido_seccionales"></div>
 
 
 

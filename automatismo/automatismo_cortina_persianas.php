@@ -7,7 +7,8 @@
 <div class="encabezado_link">Automatismo para cortinas y persianas</div>
 <div class="frame_menu_automatismo"> <?php require_once('../libs/menu_automatismo.php');?>
 <div class="body_link_menu_izquierda">
-Contenido automatismo cortinas y persianas
+<div class="menu_contenido_automatismo"><?php require_once('../automatismo/menu_contenido_cortina_persianas.php'); ?></div>
+<div class="contenido_seccionales"></div>
 
 
 

@@ -231,7 +231,7 @@ Div.body_link_menu_izquierda{
 	color:#000000;	
 }
 
-Div.menu_contenido_seccionales{
+Div.menu_contenido_automatismo{
 	height:510px;
 	width:150px;
 	position:absolute;
@@ -266,7 +266,8 @@ div.encabezado_link{
 	font-size:24px;
 	font:Arial;
 	color:#005300;
-	background-color:#97BD8A;
+	/*background-color:#97BD8A;*/
+	background-color:#E4EFE4;
 	line-height:50px;
 	text-align:center;
 	/*padding-left: 57px; /*espacios a la izquierda del texto*/
@@ -313,14 +314,14 @@ Div.frame{ /*Frame principal, le da el tamaño total a la página web*/
 }
 
 Div.frame_menu_vertical_qs{
-	height:717px;
+	height:797px;
 	width:300px;
 	position:relative;
 	top:10px;
 }
 
 Div.body_link_centro_pagina_qs{
-	height:717px;
+	height:797px;
 	width:720px;
 	position:absolute;
 	margin-top:0px;
