@@ -51,7 +51,7 @@ color: #3366FF;
 
 <div class="c">
 <?php
-$numbanners = 5; //numero de banners que se rotarán
+$numbanners = 23; //numero de banners que se rotarán
 $random = rand(1,$numbanners);
 
 //for ($i = $numbanners; ; $i++){
@@ -59,8 +59,8 @@ $random = rand(1,$numbanners);
 //   $i=1;
 //   }
 ?>
-<!----div class="c1"><img src="img/banner<?php //echo $i ?>.png"  alt="" /></div!-->
-<div class="c1"><img src="img/banner1.png"  alt="" /></div>
+<div class="c1"> <iframe src="banner/banner.html" width="1024" height="379" frameborder="0" style="border:0" allowfullscreen></iframe> </div>
+
 
 <?php
 //ob_flush();flush();sleep(5);

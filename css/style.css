@@ -67,7 +67,7 @@ DIV.c1 IMG  {   /*esta seccion le da tamaño de proporcion al archivo png*/
     HEIGHT: 379px;
     BORDER-TOP: 0px;
     BORDER-RIGHT: 0px;
-	POSITION: absolute;
+	POSITION: relative;
 }
 
 .hidden  {
@@ -373,3 +373,9 @@ Div.body_link_centro_pagina_videos{
 	top: 0px;
 	text-align:center;
 }
+
+
+
+
+
+
