@@ -374,6 +374,11 @@ Div.body_link_centro_pagina_videos{
 	text-align:center;
 }
 
+Div.frame_info_instalador{
+    height:500px;
+	width:1024px;
+	position:relative;
+}
 
 
 
